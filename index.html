@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mint Your NFT</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex justify-center p-4 items-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+  <div class="rounded-lg border bg-white text-card-foreground shadow-sm w-full max-w-4xl mx-auto">
+    <div class="flex p-10 gap-6">
+      <div class="flex-1">
+        <img src="./Elsa.gif" alt="Minting Animation" class="rounded-lg" >
+      </div>
+      <div class="flex-1">
+        <h1 class="text-3xl font-semibold">Minting Generative NFT</h1>
+        <p class="text-gray-500 text-md mt-4">
+          Mint your unique generative NFT here! Each piece is crafted using advanced algorithms to create one-of-a-kind digital art.
+        </p>
+        <div class="flex justift-center items-center gap-5 mt-20">
+          <button id="connectWallet" class="w-full px-4 py-3 bg-blue-800 text-white rounded-lg">Connect Wallet</button>
+          <button id="mintNFT" class="w-full px-4 py-3 bg-black text-white rounded-lg">Mint NFT</button>
+        </div>
+        <p id="status" class="text-lg font-bold text-green-800 mt-8 text-center"></p>
+        <!-- <div class="mt-4 text-sm flex justify-between">
+          <a href="https://sepolia.etherscan.io/token/0x67Bc079F4A69ACd9dE820C7C3e1a69B95A5B6F12" target="_blank" class="text-black text-gray-500 text-lg">View on Explorer</a>
+          <a href="https://highlight.xyz/mint/sepolia:0x67Bc079F4A69ACd9dE820C7C3e1a69B95A5B6F12" target="_blank" class="text-black text-gray-500 text-lg">View Mint Page</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+<script src="./index.js" type="module"></script>
+</body>
+</html>
